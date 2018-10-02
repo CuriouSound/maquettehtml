@@ -1,0 +1,62 @@
+
+@font-face {
+      font-family: 'caviar_dreamsregular';
+      src: url(CaviarDreams-webfont.ttf) format('truetype');
+}
+
+
+body
+{
+	font-family:'roboto',sans-serif;
+}
+
+h1
+{
+	font-family:"caviar_dreamsregular";
+}
+
+
+.john
+{
+	background-image: url("backgroundphoto.png");
+	justify-content:center;
+}
+
+.contact
+{
+	background-image: url("contact.jpg");
+	justify-content:center;
+}
+
+.servicestxt
+{
+	background-color:rgba(75,202,255);
+}
+
+.twitter
+{
+	background-color:rgba(75,202,255);
+}
+
+.bouton
+{
+	background-color:rgba(75,202,255);
+	width: 10%;
+	padding: 1%;
+	text-align: center;
+	color:white;
+}
+
+footer
+{
+	background-color: rgba(53,63,71);
+}
+
+.txtvideo
+{
+	background-color: rgba(81,95,103);
+}
+.menup{
+	cursor: pointer;
+
+}

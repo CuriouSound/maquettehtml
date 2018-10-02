@@ -1,0 +1,22 @@
+
+
+
+body
+{
+	font-family:Roboto', sans-serif;
+	width:100%;
+	margin:auto;
+
+}
+
+.john
+{
+	background-image: url (backgroundphoto.png)
+	justify-content:center;
+}
+
+.contact
+{
+	background-image: url (contact.jpg)
+	justify-content:center;
+}
