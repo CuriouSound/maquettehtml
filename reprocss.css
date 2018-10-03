@@ -15,6 +15,7 @@ body
 
 h1
 {
+	padding-left:350px;
 	font-family:"caviar_dreamsregular";
 }
 
@@ -36,7 +37,12 @@ h1
 	position:absolute;
 	top:75px;
 	left:350px;
+}
 
+a
+{
+color:white;
+text-decoration:none;
 }
 
 #menup
@@ -86,6 +92,9 @@ nav
 	background-color:rgba(66,76,84);
 }
 
+
+
+}
 .john
 {
 	background-image: url("backgroundphoto.png") fixed no-repeat;width:100%;
@@ -96,19 +105,99 @@ nav
 .contact
 {
 	background-image: url("contact.png") fixed no-repeat;
-	justify-content:center;
+	
 }
 
 .servicestxt
 {
-	background-color:rgba(75,202,255);
-}
 
+	background-color:rgba(75,202,255);
+
+	position:relative;
+
+	
+}
+#blocvidegauche{
+	width:20%;
+	display: inline-block;
+	position:absolute;
+	left:50px;
+	margin-left: 3%;
+	height: 5%;
+
+}
+.coffee{
+	display:inline-block;
+	justify-content: center;
+	position:relative;
+	left:300px;
+	width: 13%;
+	margin-left:3%;
+
+}
+.instant{
+	display:inline-block;
+	justify-content: center;
+	position:relative;
+	left:250px;
+	width :13%;
+	padding-left:100px;
+}
+.serious{
+
+	display:inline-block;
+	justify-content: center;
+	position:relative;
+	left:250px;
+	width:13%;
+	padding-left:100px;
+}
+.frame{
+	display:inline-block;
+	justify-content: center;
+	position:relative;
+	left:250px;
+	width:13%;
+	padding-left: 100px;
+}
+.blocvidedroite{
+	width:20%;
+	display: inline-block;
+	position:absolute;
+	right:50px;
+	margin-left: 3%;
+	height: 5%;}
+#portfolio{
+	color:black;
+	display: inline-block;
+	position:relative;
+	justify-content: center;
+	list-style-type: none
+}
 .twitter
 {
 	background-color:rgba(75,202,255);
-}
+	font-size: 1.5em;
+	width:100%;
+	position: absolute;
+	display: inline-block;
 
+}
+.twitterlogo{
+	right:250px;
+	display: inline-block;
+	position:absolute;
+	top:40px;
+}
+.txttwitter{
+	padding-left: 19%;
+	position: relative;
+	display:inline-block;
+	width:65%;
+}
+.gras{
+	font-weight:bold
+}
 .bouton
 {
 	background-color:rgba(75,202,255);
@@ -123,12 +212,32 @@ footer
 	background-color: rgba(53,63,71);
 }
 
-.txtvideo
+.allvideo
 {
 	background-color: rgba(81,95,103);
+	padding-top: 1%
+	padding-bottom:20%;
+
+}
+.txtvideo{
+	padding-left: 19%;
+	width:29%;
+	display:block;
+	bottom: :200px;
+	
+
+}
+.video{
+	padding-right:10%;
+	padding-left: 10%;
+	position: relative;
+	display: block;
+	justify-content: center;
+	width:10%;
+	top:-30px;
+	margin:auto;
+
 }
 #imgbackground{
 	width: 100%;
 }
-
-
