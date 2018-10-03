@@ -8,7 +8,7 @@
 body
 {
 	font-family:'roboto',sans-serif;
-	color:white;
+	color:black;
 	width:100%;
 	margin:auto;
 }
@@ -37,6 +37,12 @@ h1
 	top:75px;
 	left:350px;
 
+}
+
+a
+{
+	color:white;
+	text-decoration:none;
 }
 
 #menup
@@ -93,11 +99,37 @@ nav
 	
 }
 
+
+
+
+
+
 .contact
 {
+	display:flex;
 	background-image: url("contact.png") fixed no-repeat;
-	justify-content:center;
+	justify-content:space-around;
+	align-items:center;
 }
+
+.formulaire
+{
+	display:block;
+	position:absolute;
+	left:10px;
+	
+}
+
+.blocparagraphe
+{
+	display: block;
+	position: absolute;
+	width:50%;
+}
+
+
+
+
 
 .servicestxt
 {
